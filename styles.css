@@ -1,0 +1,23 @@
+.lado {
+    float: left;
+}
+
+body {
+    align-content: center;
+    background-color: cream;
+    height: 300px;
+    font-size: 14px;
+    font-family: montserrat;
+
+}
+
+image {
+    align-items: center;
+    width: 150px;
+    height: 300px;
+}
+
+button {
+    background-color: darkcyan;
+    border-radius: 55px;
+}
