@@ -9,7 +9,7 @@
     margin-top: -20px;
     margin-bottom: -20px;
     width: 430px;
-    height: 500px;
+    height: 520px;
     border-top-left-radius: 10px 10px;
     border-bottom-left-radius: 10px 10px;
 
@@ -19,36 +19,39 @@
     float: left;
     background-color: white;
     margin-top: -10px;
-    padding: 10px;
+    padding: 20px;
 
 
 }
 
 .nome {
-    font-size: 32px;
+    font-size: 40px;
     font-family: "Fraunces", serif;
     font-weight: bolder;
     color: black;
-    padding: 10px;
+    padding: 25px;
     margin-top: -10px;
     margin-bottom: -10px;
 
 }
 
 .texto {
-    font: 18px "Montserrat", sans-serif;
+    font: 20px "Montserrat", sans-serif;
     align-items: left;
     color: #8D92A5;
+    background-color: white;
+    margin-top: -10px;
 }
 
 .conteudo_cartao {
-    align-items: left;
+    text-align: left;
     float: right;
     background-color: white;
     width: 410px;
-    height: 400px;
+    height: 455px;
     text-align: left;
-    margin-left: -10px;
+    margin-left: -55px;
+    margin-top: -20px;
 
 }
 
@@ -61,20 +64,34 @@
     margin-left: 150px;
     margin-bottom: 150px;
     margin-right: 150px;
-    width: 830px;
-    height: 460px;
+    width: 835px;
+    height: 480px;
     border-top-right-radius: 10px 10px;
     border-bottom-right-radius: 10px 10px;
 }
 
-.btn {
-    align-items: baseline;
-
+button {
+    background-color: #3C8067;
+    border-radius: 50px;
+    margin-bottom: -50px;
+    margin-left: 30px;
+    margin-top: -30px;
+    padding: 25px;
+    padding-left: 10px;
+    border-radius: 10px;
+    width: 330px;
+    height: 20px;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: -20px;
 }
 
-button {
-    background-color: darkcyan;
-    border-radius: 45px;
+.btn {
+    text-align: center;
+    display: inline-block;
+    border: none;
+    color: white;
+
 }
 
 p {
@@ -82,12 +99,38 @@ p {
     background-color: white;
     text-align: left;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
+
+}
+
+.preco_atual {
+    text-align: left;
+    float: left;
+    margin-top: -50px;
+    font-size: 40px;
+    color: #3C8067;
+    font-family: "Fraunces", serif;
+    border: 10px;
+
+}
+
+.preco_anterior {
+    text-align: right;
+    float: right;
+    font: normal;
+    margin-top: -42px;
+    margin-left: -30px;
+    font-size: 25px;
+    color: black;
+    font-family: "Fraunces", serif;
+    text-decoration-line: line-through;
+    border: 10px;
+
 
 }
 
 body {
-    background-color: beige;
+    background-color: blanchedalmond;
     padding: center;
     margin: 0px;
     font-family: montserrat, sans-serif;
