@@ -64,6 +64,7 @@
     margin-left: 150px;
     margin-bottom: 150px;
     margin-right: 150px;
+    margin: auto;
     width: 835px;
     height: 480px;
     border-top-right-radius: 10px 10px;
@@ -75,25 +76,25 @@
 button {
     background-color: #3C8067;
     border-radius: 50px;
-    margin-bottom: -50px;
-    margin-left: 30px;
-    margin-top: -30px;
+    margin: -30px 30px;
     padding: 25px;
     padding-left: 10px;
     border-radius: 10px;
     width: 330px;
     height: 20px;
     cursor: pointer;
-    margin: 10px;
-    margin-top: -20px;
+    text-align: center;
+    vertical-align: middle;
+
+
 }
 
 .btn {
-    text-align: center;
     display: inline-block;
     border: none;
     color: white;
-
+    text-align: center;
+    vertical-align: middle;
 }
 
 p {
@@ -119,7 +120,8 @@ p {
 .preco_anterior {
     text-align: right;
     float: right;
-    font: normal;
+    font: lighter;
+    font-size: 10px;
     margin-top: -42px;
     margin-left: -30px;
     font-size: 25px;
@@ -127,7 +129,13 @@ p {
     font-family: "Fraunces", serif;
     text-decoration-line: line-through;
     border: 10px;
+}
 
+.footer {
+    text-align: center;
+    margin-bottom: -50px;
+    text-decoration: none;
+    color: white;
 
 }
 
