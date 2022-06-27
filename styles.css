@@ -1,23 +1,82 @@
+@charset "UTF-8";
+
 .lado {
-    float: left;
-}
-
-body {
-    align-content: center;
-    background-color: cream;
-    height: 300px;
-    font-size: 14px;
-    font-family: montserrat;
-
-}
-
-image {
     align-items: center;
-    width: 150px;
-    height: 300px;
+    float: left;
+    margin: auto;
+    width: 400px;
+    border-radius: 15px;
+    height: 500px;
+}
+
+.titulo_cartao {
+    float: left;
+    background-color: white;
+}
+
+.nome {
+    font-size: 32px;
+    color: black;
+    font-family: "Fraunces", serif;
+}
+
+.conteudo_cartao {
+    align-items: center;
+    float: right;
+    margin: auto;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    text-align: left;
+}
+
+.cartao {
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+
+}
+
+.btn {
+    align-items: center;
+
 }
 
 button {
     background-color: darkcyan;
-    border-radius: 55px;
+    border-radius: 45px;
+    width: fit-content;
+}
+
+p {
+    margin: auto;
+    float: right;
+    background-color: white;
+    text-align: left;
+    align-items: center;
+    padding: 20px;
+
+}
+
+body {
+    background-color: beige;
+    padding: center;
+    margin: auto;
+    font-family: montserrat, sans-serif;
+    font-size: 14px;
+    width: 850px;
+    height: 600px;
+    align-items: certer;
+    margin-top: 150px;
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.726);
+}
+
+h4 {
+    font-size: 14px;
+    color: rgba(61, 61, 61, 0.63);
+    font-weight: lighter;
+    font: 14px;
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
 }
