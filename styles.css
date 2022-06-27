@@ -68,6 +68,8 @@
     height: 480px;
     border-top-right-radius: 10px 10px;
     border-bottom-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
 }
 
 button {
@@ -130,16 +132,14 @@ p {
 }
 
 body {
-    background-color: blanchedalmond;
+    background-color: #98ebc4;
     padding: center;
     margin: 0px;
     font-family: montserrat, sans-serif;
     font-size: 14px;
     align-items: certer;
-    margin-top: 150px;
-    margin-left: 150px;
-    margin-bottom: 150px;
-    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.726);
+    margin: 150px 150px 150px 150px;
+
 }
 
 h4 {
